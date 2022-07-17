@@ -1,7 +1,7 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import { Counter } from "../components/counter";
-import { useCounters } from "./useCounters";
+import { useCounters } from "../hooks/useCounters";
 
 type TechnologyCardProps = {
   name: string;
